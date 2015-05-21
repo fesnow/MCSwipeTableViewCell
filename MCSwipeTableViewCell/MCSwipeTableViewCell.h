@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ParseUI/PFTableViewCell.h>
 
 @class MCSwipeTableViewCell;
 
@@ -54,7 +55,7 @@ typedef void (^MCSwipeCompletionBlock)(MCSwipeTableViewCell *cell, MCSwipeTableV
 
 @protocol MCSwipeTableViewCellDelegate;
 
-@interface MCSwipeTableViewCell : UITableViewCell
+@interface MCSwipeTableViewCell : PFTableViewCell
 
 /** Delegate of `MCSwipeTableViewCell` */
 @property (nonatomic, assign) id <MCSwipeTableViewCellDelegate> delegate;

@@ -31,6 +31,7 @@
 		7C23B01617DB87F100771FA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9CAA5E16E2459D00F376BC /* Foundation.framework */; };
 		7C23B03817DB884A00771FA0 /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CAA9216E2469900F376BC /* MCSwipeTableViewCell.m */; };
 		7C23B03917DB885D00771FA0 /* MCSwipeTableViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B9CAA9116E2469900F376BC /* MCSwipeTableViewCell.h */; };
+		F55F44F31B0E078800434E44 /* PFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F55F44F21B0E078800434E44 /* PFTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +78,8 @@
 		7C23B01517DB87F100771FA0 /* libMCSwipeTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMCSwipeTableViewCell.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C23B01917DB87F100771FA0 /* MCSwipeTableViewCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCSwipeTableViewCell-Prefix.pch"; sourceTree = "<group>"; };
 		7C23B02317DB87F100771FA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F55F44F11B0E078800434E44 /* PFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTableViewCell.h; sourceTree = "<group>"; };
+		F55F44F21B0E078800434E44 /* PFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				7B9CAA6C16E2459D00F376BC /* MCAppDelegate.m */,
 				7B9CAA8D16E2465500F376BC /* MCTableViewController.h */,
 				7B9CAA8E16E2465500F376BC /* MCTableViewController.m */,
+				F55F44F11B0E078800434E44 /* PFTableViewCell.h */,
+				F55F44F21B0E078800434E44 /* PFTableViewCell.m */,
 				7B9CAA7916E245F900F376BC /* Images */,
 				7B9CAA6316E2459D00F376BC /* Supporting Files */,
 			);
@@ -308,6 +313,7 @@
 				7B9CAA6D16E2459D00F376BC /* MCAppDelegate.m in Sources */,
 				7B9CAA8F16E2465500F376BC /* MCTableViewController.m in Sources */,
 				7B9CAA9316E2469900F376BC /* MCSwipeTableViewCell.m in Sources */,
+				F55F44F31B0E078800434E44 /* PFTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
